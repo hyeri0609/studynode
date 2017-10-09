@@ -1,4 +1,5 @@
-var m = require("./moduleReaddir.js");
+var fs = require("fs");
+var path = require("path");
 
 var dir = process.argv[2].toString();
 var ext = process.argv[3].toString();
